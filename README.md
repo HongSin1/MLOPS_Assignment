@@ -4,27 +4,27 @@
 
 Folder Structure
 
-config/ – Contains configuration files required for the project.
+--|config/ – Contains configuration files required for the project.
 
-data/ – Stores raw and processed data used in the project.
+--|data/ – Stores raw and processed data used in the project.
 
-dvctest/ – Used for data version control (DVC) testing.
+--|dvctest/ – Used for data version control (DVC) testing.
 
-models/ – Includes machine learning or statistical models utilized in data analysis.
+--|models/ – Includes machine learning or statistical models utilized in data analysis.
 
-notebooks/ – Jupyter notebooks for exploratory data analysis and prototyping.
+--|notebooks/ – Jupyter notebooks for exploratory data analysis and prototyping.
 
-src/ – Source code for the main functionality of the project.
+--|src/ – Source code for the main functionality of the project.
 
-static/ – Contains static assets like images, CSS, or JavaScript files.
+--|static/ – Contains static assets like images, CSS, or JavaScript files.
 
-.gitignore – Specifies files and directories to be ignored by Git.
+--|.gitignore – Specifies files and directories to be ignored by Git.
 
-README.md – Documentation for the project.
+--|README.md – Documentation for the project.
 
-logs.log – Log file containing runtime logs and debugging information.
+--|logs.log – Log file containing runtime logs and debugging information.
 
-requirements.txt – List of dependencies required to run the project.
+--|requirements.txt – List of dependencies required to run the project.
 
 ## Potential Requisites
 
