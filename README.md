@@ -60,4 +60,5 @@ To ensure smooth setup and execution, the following prerequisites may be require
 
 - **Lastly, run the app on streamlit with**: *streamlit run src/main_app.py*
 
+## Link to the web app: *https://hs-edward.streamlit.app/*
 
