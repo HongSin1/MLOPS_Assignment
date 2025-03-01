@@ -1,0 +1,82 @@
+# App configuration
+app:
+  description: "This application classifies wheat kernels into three varieties (Kama, Rosa, and Canadian) based on geometric parameters. The classification uses a machine learning model trained with PyCaret."
+  model_path: "models/wheat-seeds-pipeline"
+  css_path: "static/css/wheat_style.css"
+
+# Wheat varieties mapping
+wheat_types:
+  1: "Kama"
+  2: "Rosa"
+  3: "Canadian"
+
+# Required columns for batch prediction
+required_columns:
+  - "Area"
+  - "Perimeter"
+  - "Compactness"
+  - "Length"
+  - "Width"
+  - "AsymmetryCoeff"
+  - "Groove"
+
+# Sample data for CSV template
+sample_data:
+  Area: [15.26, 14.88, 14.29]
+  Perimeter: [14.84, 14.57, 14.09]
+  Compactness: [0.871, 0.8811, 0.905]
+  Length: [5.763, 5.554, 5.291]
+  Width: [3.312, 3.333, 3.337]
+  AsymmetryCoeff: [2.221, 1.018, 2.699]
+  Groove: [5.22, 5.0, 4.825]
+
+# Input field configurations
+input_fields:
+  area:
+    label: "Area"
+    min_value: 5.0
+    max_value: 25.0
+    default_value: 15.0
+    help: "Area of the kernel (5.0 to 25.0)"
+  perimeter:
+    label: "Perimeter"
+    min_value: 5.0
+    max_value: 25.0
+    default_value: 14.0
+    help: "Perimeter of the kernel (5.0 to 25.0)"
+  compactness:
+    label: "Compactness"
+    min_value: 0.50
+    max_value: 1.00
+    default_value: 0.85
+    help: "Compactness = 4*pi*Area/Perimeter^2 (0.50 to 1.00)"
+  length:
+    label: "Kernel Length"
+    min_value: 1.0
+    max_value: 10.0
+    default_value: 5.5
+    help: "Length of the kernel (1.0 to 10.0)"
+  width:
+    label: "Width"
+    min_value: 1.0
+    max_value: 10.0
+    default_value: 3.5
+    help: "Width of the kernel (1.0 to 10.0)"
+  asymmetry:
+    label: "Asymmetry Coefficient"
+    min_value: 0.0
+    max_value: 15.0
+    default_value: 3.0
+    help: "Asymmetry coefficient of the kernel (0.0 to 15.0)"
+  groove:
+    label: "Groove Length"
+    min_value: 1.0
+    max_value: 10.0
+    default_value: 5.0
+    help: "Groove length of the kernel (1.0 to 10.0)"
+
+# Hydra-specific configurations
+hydra:
+  run:
+    dir: .
+  output_subdir: null  # Don't create a hydra output directory

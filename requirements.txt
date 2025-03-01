@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+plotly
+Pillow
+pyyaml
+catboost
+pycaret
+mlflow
+scikit-plot
+hydra-core

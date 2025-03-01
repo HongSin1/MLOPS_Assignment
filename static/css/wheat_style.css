@@ -1,0 +1,62 @@
+/* Main container styling */
+.main {
+    padding: 2rem;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+/* Button hover/active states */
+.stButton>button:hover {
+    background-color: #3d8b40;
+    border-color: #3d8b40;
+    color: white;
+}
+.stButton>button:active, .stButton>button:focus {
+    background-color: #2d682f !important;
+    border-color: #2d682f !important;
+    color: white !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.stButton>button:active:focus, .stButton>button:focus:active {
+    border-color: #2d682f !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Progress bar styling */
+.stProgress .st-bf {
+    background-color: #4CAF50;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2C3E50;
+}
+
+/* Prediction result boxes */
+.prediction-box {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+/* Confidence level styling, Green for high confidence, yellow for medium, red for low */
+.high-conf {
+    background-color: rgba(76, 175, 80, 0.3);
+}
+.medium-conf {
+    background-color: rgba(255, 193, 7, 0.3);
+}
+.low-conf {
+    background-color: rgba(244, 67, 54, 0.3);
+}
