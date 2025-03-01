@@ -30,19 +30,9 @@ Folder Structure
 
 To ensure smooth setup and execution, the following prerequisites may be required:
 
-Python (>=3.8) – Ensure you have Python installed.
+- Python (>=3.8) – Ensure you have Python installed.
 
-Apache Cassandra – Required for managing large-scale distributed data.
-
-DataStax Enterprise – Needed for enhanced Cassandra features and scalability.
-
-Git – For version control and repository management.
-
-Jupyter Notebook – Recommended for exploratory data analysis.
-
-DVC (Data Version Control) – For managing data changes and reproducibility.
-
-pip and virtual environments – Best practice for dependency management.
+- Git – For version control and repository management.
 
 ## Usage
 
