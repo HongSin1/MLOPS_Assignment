@@ -1,47 +1,56 @@
-# House Price Prediction App
+# MLOPS_Assignment by Edward and Hongsin
 
-Overview
+## Overview
 
-This repository contains a House Price Prediction App, which leverages machine learning to estimate house prices based on various features. The application is built using Streamlit for the frontend and utilizes Hydra for configuration management. Additionally, DVC (Data Version Control) is used to handle datasets efficiently.
+Folder Structure
 
-Features
+config/ – Contains configuration files required for the project.
 
-- Machine Learning Model: Predicts house prices based on input features.
+data/ – Stores raw and processed data used in the project.
 
-- Streamlit UI: Provides an interactive web-based interface.
+dvctest/ – Used for data version control (DVC) testing.
 
-- Hydra Configuration: Manages application configurations in a structured manner.
+models/ – Includes machine learning or statistical models utilized in data analysis.
 
-- DVC for Data Management: Ensures version control for datasets.
+notebooks/ – Jupyter notebooks for exploratory data analysis and prototyping.
 
-- Modular Code Structure: Organized using best practices for maintainability.
+src/ – Source code for the main functionality of the project.
 
-## Repository Structure
+static/ – Contains static assets like images, CSS, or JavaScript files.
 
-├── .dvc/                           # DVC tracking files
+.gitignore – Specifies files and directories to be ignored by Git.
 
-├── config/Wheat_Classification_Model/  # Configuration files managed by Hydra
+README.md – Documentation for the project.
 
-├── data/                            # Dataset storage (tracked via DVC)
+logs.log – Log file containing runtime logs and debugging information.
 
-├── models/                          # Trained machine learning models
+requirements.txt – List of dependencies required to run the project.
 
-├── notebooks/                       # Jupyter notebooks for experimentation
+## Potential Requisites
 
-├── src/                             # Source code for the app
+To ensure smooth setup and execution, the following prerequisites may be required:
 
-├── static/css/                      # Static files for styling (if applicable)
+Python (>=3.8) – Ensure you have Python installed.
 
-├── .gitignore                       # Git ignore file
+Apache Cassandra – Required for managing large-scale distributed data.
 
-├── .pre-commit-config.yaml          # Configuration for pre-commit hooks
+DataStax Enterprise – Needed for enhanced Cassandra features and scalability.
 
-├── Makefile                         # Automation scripts for building, running, and testing
+Git – For version control and repository management.
 
-├── README.md                        # Project documentation (this file)
+Jupyter Notebook – Recommended for exploratory data analysis.
 
-├── poetry.lock                      # Poetry dependency lock file
+DVC (Data Version Control) – For managing data changes and reproducibility.
 
-├── pyproject.toml                   # Python project dependencies
+pip and virtual environments – Best practice for dependency management.
 
-├── requirements.txt                  # Dependencies for running the project
+## Usage
+
+Modify and add datasets to the data/ directory.
+
+Update configuration settings in config/ as required.
+
+Run source code in src/ to perform data transformations and analysis.
+
+Use models/ to store trained models and related files.
+
