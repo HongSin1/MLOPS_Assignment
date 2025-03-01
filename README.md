@@ -4,7 +4,7 @@
 
 Folder Structure
 
---| config/ – Contains configuration files required for the project.
+--| config/ – Contains configuration files required for this project.
 
 --| data/ – Stores raw and processed data used in the project.
 
@@ -12,11 +12,11 @@ Folder Structure
 
 --| models/ – Includes machine learning or statistical models utilized in data analysis.
 
---| notebooks/ – Jupyter notebooks for exploratory data analysis and prototyping.
+--| notebooks/ – Jupyter notebooks for EDA, model training and saving.
 
---| src/ – Source code for the main functionality of the project.
+--| src/ – Source code for the backend (web app) of the project.
 
---| static/ – Contains static assets like images, CSS, or JavaScript files.
+--| static/ – Contains CSS styles
 
 --| .gitignore – Specifies files and directories to be ignored by Git.
 
