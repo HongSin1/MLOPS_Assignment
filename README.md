@@ -50,7 +50,9 @@ To ensure smooth setup and execution, the following prerequisites may be require
 
 ## Deployment
 
-**After unzipping your file, open Visual Studio Code and create your python environment** (do this by creating a new terminal on the top-left of the window): python -m venv it3385_venv
+**After unzipping your file, open Visual Studio Code and create your python environment**
+
+(do this by creating a new terminal on the top-left of the window): python -m venv it3385_venv
 
 **Proceed to activate the environment**: it3385_venv\Scripts\activate
 
