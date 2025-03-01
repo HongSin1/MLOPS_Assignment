@@ -52,12 +52,12 @@ To ensure smooth setup and execution, the following prerequisites may be require
 
 - **After unzipping your file, open Visual Studio Code and create your python environment**
 
-  (select create new terminal on the top-left of the vsc window): python -m venv it3385_venv
+  (select create new terminal on the top-left of the vsc window): *python -m venv it3385_venv*
 
-- **Proceed to activate the environment**: it3385_venv\Scripts\activate
+- **Proceed to activate the environment**: *it3385_venv\Scripts\activate*
 
-- **Then install the requirements.txt file with**: pip install -r requirements.txt
+- **Then install the requirements.txt file with**: *pip install -r requirements.txt*
 
-- **Lastly, run the app on streamlit with**: streamlit run src/main_app.py
+- **Lastly, run the app on streamlit with**: *streamlit run src/main_app.py*
 
 
