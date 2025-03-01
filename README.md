@@ -19,16 +19,29 @@ Features
 ## Repository Structure
 
 ├── .dvc/                           # DVC tracking files
+
 ├── config/Wheat_Classification_Model/  # Configuration files managed by Hydra
+
 ├── data/                            # Dataset storage (tracked via DVC)
+
 ├── models/                          # Trained machine learning models
+
 ├── notebooks/                       # Jupyter notebooks for experimentation
+
 ├── src/                             # Source code for the app
+
 ├── static/css/                      # Static files for styling (if applicable)
+
 ├── .gitignore                       # Git ignore file
+
 ├── .pre-commit-config.yaml          # Configuration for pre-commit hooks
+
 ├── Makefile                         # Automation scripts for building, running, and testing
+
 ├── README.md                        # Project documentation (this file)
+
 ├── poetry.lock                      # Poetry dependency lock file
+
 ├── pyproject.toml                   # Python project dependencies
+
 ├── requirements.txt                  # Dependencies for running the project
